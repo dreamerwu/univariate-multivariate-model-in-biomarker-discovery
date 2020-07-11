@@ -30,6 +30,8 @@ d. Multivariate multivariable regression model: a model with multiple outcomes a
   e. Fractional polynomials: mfp() function in 'mfp' package;
   f. Splines: rcspline.eval() function in 'Hmisc';
   
-5. Cofounding factor
+5. Cofounding factor: a variable, other than the independent variable that you're interested in, that may affect the dependent variable. This can lead to   
+   erroneous conclusions about the relationship between the independent and dependent variables. How to adjust cofounding factor (e.g. age and gender)?----
+    fit <- lm (concentration ~ healthy + age + gender, data=mydf)
 
 
