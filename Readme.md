@@ -25,6 +25,12 @@ d. Multivariate multivariable regression model: a model with multiple outcomes a
 
 
 
-
+4.R package for implementing advanced multivariable regression modelling techniques.
+  a. Linear regression: lm() function;
+  b. logistic regression: glm() function with binomial family;
+  c. Cox PH regression: coxph() function in 'survival' package;
+  d. stepwise regression: step() function;
+  e. Fractional polynomials: mfp() function in 'mfp' package;
+  f. Splines: rcspline.eval() function in 'Hmisc';
 
 
