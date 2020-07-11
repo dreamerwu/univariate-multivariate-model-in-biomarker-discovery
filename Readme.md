@@ -20,10 +20,7 @@ b. Univariate multivariable regression model: a model with one outcome and sever
 c. Multivariate univariable regression model: a model with multiple outcomes and single explanatory variable;
 d. Multivariate multivariable regression model: a model with multiple outcomes and multiple explanatory variables;
 
-3. dependent and independent variable
-
-
-
+3. Prognostic factor: a situation or condition, or a characteristic of a patient, that can be used to estimate the chance of recovery from a disease or the chance of the disease recurring (coming back).
 
 4.R package for implementing advanced multivariable regression modelling techniques.
   a. Linear regression: lm() function;
@@ -32,5 +29,7 @@ d. Multivariate multivariable regression model: a model with multiple outcomes a
   d. stepwise regression: step() function;
   e. Fractional polynomials: mfp() function in 'mfp' package;
   f. Splines: rcspline.eval() function in 'Hmisc';
+  
+5. Cofounding factor
 
 
